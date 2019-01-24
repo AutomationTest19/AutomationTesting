@@ -14,20 +14,20 @@ driver.findElement(By.xpath('//*[@id="ember14"]')).sendKeys("mansi.sahu@veris.in
         console.log("Able to write in the username text field");
     }
 );
-// driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/div[2]/div/input")).sendKeys("123456").then(
-//     function()
-//     {
-//         console.log("Able to write in the username text field");
-//     }
-// );
-// remember me
-// driver.findElement(By.xpath('//*[@id="checkbox-signup"]')).click().then(
-//     function()
-//     {
-//         console.log("checkbox clicked");
-//     }
-// )
-//driver.findElement(By.xpath('/html/body/div[1]/div/div[2]/form/div[3]/div/div[1]/div/button/span')).click();
+driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/form/div[2]/div/input")).sendKeys("123456").then(
+    function()
+    {
+        console.log("Able to write in the username text field");
+    }
+);
+remember me
+driver.findElement(By.xpath('//*[@id="checkbox-signup"]')).click().then(
+    function()
+    {
+        console.log("checkbox clicked");
+    }
+)
+driver.findElement(By.xpath('/html/body/div[1]/div/div[2]/form/div[3]/div/div[1]/div/button/span')).click();
 driver.findElement(By.xpath('/html/body/div[1]/div/div/div/div[2]/button')).getText().then(
     
         function(txt)
